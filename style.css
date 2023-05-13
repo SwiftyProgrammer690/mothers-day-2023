@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Text&display=swap');
+
+body {
+    background-color: #1E352F;
+    perspective: 125em;
+    font-family: "Wix Madefor Text";
+}
+
+.top-left {
+    position: absolute;
+    top: 70px;
+    left: 170px;
+    font-size: 18px;
+    text-align: center;
+    height: 100px;
+    align-items: center;
+    background-color: #E2FADB;
+    justify-content: center;
+    display: flex;
+    border: 3px solid #CFEBDF;
+    border-radius: 25px;
+}
+
+.top-right {
+    position: absolute;
+    top: 70px;
+    left: 980px;
+    font-size: 18px;
+    text-align: center;
+    height: 100px;
+    align-items: center;
+    background-color: #E2FADB;
+    justify-content: center;
+    display: flex;
+    border: 3px solid #CFEBDF;
+    border-radius: 25px;
+}
+
+.bottom-left {
+    position: absolute;
+    top: 550px;
+    left: 170px;
+    font-size: 18px;
+    text-align: center;
+    height: 100px;
+    align-items: center;
+    background-color: #E2FADB;
+    justify-content: center;
+    display: flex;
+    border: 3px solid #CFEBDF;
+    border-radius: 25px;
+}
+
+.bottom-right {
+    position: absolute;
+    top: 550px;
+    left: 1050px;
+    font-size: 18px;
+    text-align: center;
+    height: 100px;
+    align-items: center;
+    background-color: #E2FADB;
+    justify-content: center;
+    display: flex;
+    border: 3px solid #CFEBDF;
+    border-radius: 25px;
+}
+
+.center {
+    text-align: center;
+    border: 3px solid #1E352F;
+    background-color: #335145;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 250px;
+    bottom: auto;
+    left: 0;
+    right: 0;
+    border-radius: 25px;
+}
+
+.mothers1 {
+    font-size: 200px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+    margin: auto;
+    position: absolute;
+    top: 250px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    color: #9BC4CB;
+    animation: spin 2s linear infinite;
+}
+
+.mothers2 {
+    font-size: 200px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+    margin: auto;
+    position: absolute;
+    top: 1170px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    color: #9BC4CB;
+    animation: spin 2s linear infinite;
+}
+  
+@keyframes spin {
+    100% {transform: rotateY(360deg);}
+}
